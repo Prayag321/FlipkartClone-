@@ -155,16 +155,57 @@ nav {
 
 /* Panel main section*/
 .panel {
-    background-color: rgb(176, 2, 2);
+
     height: 111px;
     width: 100vw;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid gray;
 }
 
 .panel-item {
     width: 95px;
     height: 111px;
-    background-color: aqua;
+    display: flex;
+    margin-left: 31px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+}
+
+.panel-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    /* font-weight: 500; */
+}
+
+.panel-item p:hover {
+    color: rgb(40, 116, 240);
+    font-size: 14.2px;
+}
+
+.item:hover {
+    height: 65px;
+    width: 65px;
+}
+
+
+/*Container- body*/
+.container{
+    background-color: #dadada;
+    padding: 15px 7px;
+
+}
+.hero {
+    height: 280px;
+    width: 100vw;
+    /* background-image: url(hero.webp); */
+    background-size:cover;
 
 }

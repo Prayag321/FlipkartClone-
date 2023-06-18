@@ -160,7 +160,7 @@ nav {
     width: 100vw;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid gray;
+
 }
 
 .panel-item {
@@ -197,15 +197,163 @@ nav {
 
 
 /*Container- body*/
-.container{
+.container {
     background-color: #dadada;
     padding: 15px 7px;
 
 }
+
+/*HEro image*/
 .hero {
     height: 280px;
-    width: 100vw;
-    /* background-image: url(hero.webp); */
-    background-size:cover;
+    width: 98vw;
+    background-image: url(hero_image.jpg);
+    background-color: red;
+    background-size: cover;
 
+}
+
+/*product panel*/
+.products-panel {
+    height: 338px;
+    width: 98vw;
+    background-color: #fff;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sports {
+    height: 338px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(0deg,rgba(0, 128, 0, 0),rgb(255, 255, 255)),url('sportsbg.webp');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.sports p {
+    font-size: 30px;
+    word-wrap: break-word;
+    margin-top: 28px;
+    width: 210px;
+    height: 124px;
+    text-align: center;
+}
+
+.sports a button {
+    border-radius: 2px;
+    background-color: rgb(40, 116, 240);
+    border-style: none;
+    color: white;
+    height: 37px;
+    width: 97px;
+    margin-top: 15px;
+}
+
+.items {
+    /* items box design*/
+    height: 338px;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.box1{
+    width: 206px;
+    height: 144px;
+    margin-top: 30px; 
+}
+.box2{
+    width: 103px;
+    height: 176px;
+    margin-top: 30px;
+}
+.box3{
+    width: 166px;
+    height: 176px;
+    margin-top: 30px; 
+}
+.box4{
+    width: 156px;
+    height: 144px;
+    margin-top: 30px; 
+}
+.box5{
+    width: 112px;
+    height: 160px;
+    margin-top: 30px; 
+}
+
+.items p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.box1:hover{
+    width: 207px;
+    height: 145px;
+    margin-top: 30px; 
+}
+.box2:hover{
+    width: 104px;
+    height: 177px;
+    margin-top: 30px;
+}
+.box3:hover{
+    width: 167px;
+    height: 177px;
+    margin-top: 30px; 
+}
+.box4:hover{
+    width: 157px;
+    height: 145px;
+    margin-top: 30px; 
+}
+.box5:hover{
+    width: 114px;
+    height: 162px;
+    margin-top: 30px; 
+}
+
+.items p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+/*Footer*/
+footer{
+    background: red;
+    height: 346px;
+    width: 1519px;
+    margin-top: 20px;
+}
+.footer1{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(33, 33, 33);
+    height: 285px;
+}
+.footer1 ul{
+ list-style: none;
+}
+.footer1 p{
+    color: #dadada56;
+    font-size: 14px;
+}
+.footer1 ul li{
+    font-size: 13px;
+    margin: 10px 0px;
+}
+.line{
+    border-left: 1px solid rgba(145, 144, 144, 0.532);
+    padding-left: 10px;
 }

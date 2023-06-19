@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -157,7 +158,7 @@ nav {
 .panel {
 
     height: 111px;
-    width: 100vw;
+    width: 95vw;
     display: flex;
     justify-content: center;
 
@@ -208,7 +209,6 @@ nav {
     height: 280px;
     width: 98vw;
     background-image: url(hero_image.jpg);
-    background-color: red;
     background-size: cover;
 
 }
@@ -229,7 +229,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(0deg,rgba(0, 128, 0, 0),rgb(255, 255, 255)),url('sportsbg.webp');
+    background-image: linear-gradient(0deg, rgba(0, 128, 0, 0), rgb(255, 255, 255)), url('sportsbg.webp');
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -264,30 +264,34 @@ nav {
 }
 
 
-.box1{
+.box1 {
     width: 206px;
     height: 144px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-.box2{
+
+.box2 {
     width: 103px;
     height: 176px;
     margin-top: 30px;
 }
-.box3{
+
+.box3 {
     width: 166px;
     height: 176px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-.box4{
+
+.box4 {
     width: 156px;
     height: 144px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-.box5{
+
+.box5 {
     width: 112px;
     height: 160px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 .items p {
@@ -295,30 +299,34 @@ nav {
     font-size: 14px;
 }
 
-.box1:hover{
+.box1:hover {
     width: 207px;
     height: 145px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-.box2:hover{
+
+.box2:hover {
     width: 104px;
     height: 177px;
     margin-top: 30px;
 }
-.box3:hover{
+
+.box3:hover {
     width: 167px;
     height: 177px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-.box4:hover{
+
+.box4:hover {
     width: 157px;
     height: 145px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-.box5:hover{
+
+.box5:hover {
     width: 114px;
     height: 162px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 .items p {
@@ -328,32 +336,59 @@ nav {
 
 
 /*Footer*/
-footer{
-    background: red;
-    height: 346px;
-    width: 1519px;
-    margin-top: 20px;
+footer {
+
+    
 }
-.footer1{
+
+.footer1 {
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:rgb(33, 33, 33);
-    height: 285px;
+    background-color:rgb(23,35,55);
+    height: 260px;
+    width: auto;
 }
-.footer1 ul{
- list-style: none;
+
+.footer1 ul {
+    list-style: none;
 }
-.footer1 p{
+
+.footer1 p {
     color: #dadada56;
     font-size: 14px;
 }
-.footer1 ul li{
+
+.footer1 ul li {
     font-size: 13px;
     margin: 10px 0px;
 }
-.line{
+
+.line {
     border-left: 1px solid rgba(145, 144, 144, 0.532);
     padding-left: 10px;
+}
+
+.footer2 {
+    color: white;
+    background-color:rgb(23,35,55);
+    display: flex;
+    /* border-top: 1px solid white; */
+    padding: 20px;
+    justify-content: space-around;
+    height: 30px;
+    width: auto;
+
+}
+
+.center-box {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.footer2 span{
+    margin-left: 7px;
+    font-size: 14px;
 }

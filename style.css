@@ -147,9 +147,7 @@ nav {
 }
 
 .cart div {
-    background-image: url(bag.png);
-    height: 43px;
-    width: 43px;
+
     background-size: cover;
     margin-right: 10px;
 }
@@ -220,6 +218,9 @@ nav {
     background-color: #fff;
     margin-top: 15px;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
     justify-content: space-between;
 }
 
@@ -338,26 +339,27 @@ nav {
 /*Footer*/
 footer {
 
-    
 }
 
 .footer1 {
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     background-color:rgb(23,35,55);
     height: 260px;
     width: auto;
+    padding-top: 35px;
 }
 
 .footer1 ul {
     list-style: none;
+    height: 157px;
 }
 
 .footer1 p {
     color: #dadada56;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer1 ul li {
@@ -368,6 +370,9 @@ footer {
 .line {
     border-left: 1px solid rgba(145, 144, 144, 0.532);
     padding-left: 10px;
+}
+.line span{
+    font-size:13px ;
 }
 
 .footer2 {
